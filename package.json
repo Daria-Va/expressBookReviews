@@ -1,0 +1,31 @@
+{
+  "name": "expressbookreviews",
+  "version": "1.0.0",
+  "description": "This is a simple Express.js-based server-side Book Review Application. It includes user authentication using JWT and session-based login. Users can view, search, add, update, and delete book reviews.\r ---\r # Prerequisites\r - CRUD operations with Node.js\r -  CRUD operations on Express server with JWT & Session Authentication\r ---\r # Setup Instructions\r ## 1.Clone the Repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node final_project/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushmi-krish/expressBookReviews.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/sushmi-krish/expressBookReviews/issues"
+  },
+  "homepage": "https://github.com/sushmi-krish/expressBookReviews#readme",
+  "devDependencies": {
+    "cypress": "^15.12.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
